@@ -9,7 +9,6 @@
     "watch:server": "nodemon server.js",
     "start:client": "cd client && yarn start",
     "postinstall": "cd client && yarn install"
-
   },
   "repository": {
     "type": "git",
