@@ -1,10 +1,26 @@
 const express = require('express');
+
 const app = express();
 
-app.get('/api/test/', (req, res) => {
-  res.json({
-    data: 'Test data',
-  });
-});
 
-app.listen(3001);
+// ===== Models =====
+
+
+// ===== Routes =====
+const authRoute = require('./server/routes/authentication'),
+	  userHandler = require('./server/routes/userHandler');
+
+// ===== Mongoose Setup =====
+
+
+// ===== Server Setup =====
+const PORT = process.env.PORT || 3001;
+
+// ===== App Use Routes =====
+//app.use(authRoute);
+app.use('/api/v1', userHandler);
+
+
+app.listen(PORT, () => {
+	console.log('API listening on port ' + PORT);
+});
