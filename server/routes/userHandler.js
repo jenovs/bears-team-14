@@ -1,31 +1,31 @@
-const Router = require("express").Router();
+const Router = require('express').Router();
 
 // Dummy route to demonstrate authentication (not implemented yet)
-Router.get("/topsecret", isLoggedIn, (req, res) => {
+Router.get('/topsecret', isLoggedIn, (req, res) => {
   return false;
 });
 
-Router.get("/test/", (req, res) => {
+Router.get('/test/', (req, res) => {
   res.json({
-    data: "Test get",
+    data: 'Test get',
   });
 });
 
-Router.post("/test/", (req, res) => {
+Router.post('/test/', (req, res) => {
   res.json({
-    data: "Test post",
+    data: 'Test post',
   });
 });
 
-Router.put("/test/", (req, res) => {
+Router.put('/test/', (req, res) => {
   res.json({
-    data: "Test put",
+    data: 'Test put',
   });
 });
 
-Router.delete("/test/", (req, res) => {
+Router.delete('/test/', (req, res) => {
   res.json({
-    data: "Test delete",
+    data: 'Test delete',
   });
 });
 
