@@ -5,8 +5,8 @@ const app = express();
 // ===== Models =====
 
 // ===== Routes =====
-const authRoute = require('./server/routes/authentication'),
-  userHandler = require('./server/routes/userHandler');
+const authRoute = require('./server/routes/authentication');
+const userHandler = require('./server/routes/userHandler');
 
 // ===== Mongoose Setup =====
 
