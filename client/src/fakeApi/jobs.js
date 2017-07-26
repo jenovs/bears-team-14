@@ -10,12 +10,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_bc58be392b90418392b7eb7990764104.jpg',
       website: 'e-recht24.de',
-      social: 'hac habitasse platea'
+      social: 'hac habitasse platea',
     },
     tags: 'aliquam erat volutpat in congue',
     isFeatured: true,
     expDate: 1501859688982,
-    location: 'Colatina'
+    location: 'Colatina',
   },
   {
     id: 2,
@@ -28,12 +28,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_8826dc25b58b45676833c6b1994c7553.jpg',
       website: 'ask.com',
-      social: 'consequat metus sapien'
+      social: 'consequat metus sapien',
     },
     tags: 'odio elementum eu interdum eu tincidunt',
     isFeatured: false,
     expDate: 1501888940057,
-    location: 'Sandvika'
+    location: 'Sandvika',
   },
   {
     id: 3,
@@ -46,12 +46,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'webeden.co.uk',
-      social: 'faucibus accumsan'
+      social: 'faucibus accumsan',
     },
     tags: 'hac habitasse platea dictumst aliquam augue quam',
     isFeatured: false,
     expDate: 1501422427960,
-    location: 'Huangtan'
+    location: 'Huangtan',
   },
   {
     id: 4,
@@ -64,12 +64,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_bc58be392b90418392b7eb7990764104.jpg',
       website: 'nymag.com',
-      social: 'sed sagittis nam'
+      social: 'sed sagittis nam',
     },
     tags: 'lacus morbi sem mauris',
     isFeatured: true,
     expDate: 1501705585790,
-    location: 'Oliveira'
+    location: 'Oliveira',
   },
   {
     id: 5,
@@ -83,12 +83,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_536c0710b4804dba4e3b97995725b18e.jpg',
       website: 'bbb.org',
-      social: 'at lorem'
+      social: 'at lorem',
     },
     tags: 'felis donec semper sapien a libero nam dui proin',
     isFeatured: true,
     expDate: 1501121390687,
-    location: 'Šenkovec'
+    location: 'Šenkovec',
   },
   {
     id: 6,
@@ -102,12 +102,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_bc58be392b90418392b7eb7990764104.jpg',
       website: 'economist.com',
-      social: 'amet'
+      social: 'amet',
     },
     tags: 'aliquet massa',
     isFeatured: false,
     expDate: 1501827953532,
-    location: 'Khe Tre'
+    location: 'Khe Tre',
   },
   {
     id: 7,
@@ -120,12 +120,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_bc58be392b90418392b7eb7990764104.jpg',
       website: 'state.tx.us',
-      social: 'consequat lectus'
+      social: 'consequat lectus',
     },
     tags: 'nulla mollis molestie lorem quisque ut erat curabitur',
     isFeatured: false,
     expDate: 1501214831504,
-    location: 'Luokou'
+    location: 'Luokou',
   },
   {
     id: 8,
@@ -139,12 +139,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_8826dc25b58b45676833c6b1994c7553.jpg',
       website: 'foxnews.com',
-      social: 'massa donec dapibus'
+      social: 'massa donec dapibus',
     },
     tags: 'nulla ut erat id mauris vulputate elementum nullam',
     isFeatured: false,
     expDate: 1501169716751,
-    location: 'Anuchino'
+    location: 'Anuchino',
   },
   {
     id: 9,
@@ -157,12 +157,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'spotify.com',
-      social: 'lacus at'
+      social: 'lacus at',
     },
     tags: 'nulla dapibus',
     isFeatured: true,
     expDate: 1501973233650,
-    location: 'Skarżysko-Kamienna'
+    location: 'Skarżysko-Kamienna',
   },
   {
     id: 10,
@@ -175,12 +175,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_8826dc25b58b45676833c6b1994c7553.jpg',
       website: 'ucsd.edu',
-      social: 'quisque'
+      social: 'quisque',
     },
     tags: 'leo odio porttitor id consequat in consequat',
     isFeatured: false,
     expDate: 1501272285833,
-    location: 'Aozai'
+    location: 'Aozai',
   },
   {
     id: 11,
@@ -193,12 +193,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_536c0710b4804dba4e3b97995725b18e.jpg',
       website: 'google.com.br',
-      social: 'amet lobortis sapien'
+      social: 'amet lobortis sapien',
     },
     tags: 'ullamcorper purus sit amet nulla quisque arcu libero',
     isFeatured: false,
     expDate: 1501827457878,
-    location: 'Knurów'
+    location: 'Knurów',
   },
   {
     id: 12,
@@ -212,12 +212,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'rediff.com',
-      social: 'vestibulum'
+      social: 'vestibulum',
     },
     tags: 'lacus morbi quis tortor',
     isFeatured: true,
     expDate: 1501806737356,
-    location: 'Agrínio'
+    location: 'Agrínio',
   },
   {
     id: 13,
@@ -230,12 +230,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: '123-reg.co.uk',
-      social: 'ut suscipit a'
+      social: 'ut suscipit a',
     },
     tags: 'consequat in consequat ut nulla',
     isFeatured: false,
     expDate: 1501708690462,
-    location: 'Piña'
+    location: 'Piña',
   },
   {
     id: 14,
@@ -248,12 +248,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_536c0710b4804dba4e3b97995725b18e.jpg',
       website: 'edublogs.org',
-      social: 'tempus'
+      social: 'tempus',
     },
     tags: 'porta volutpat quam',
     isFeatured: false,
     expDate: 1501244214625,
-    location: 'Bangelan'
+    location: 'Bangelan',
   },
   {
     id: 15,
@@ -266,12 +266,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'uol.com.br',
-      social: 'sit amet consectetuer'
+      social: 'sit amet consectetuer',
     },
     tags: 'sit amet erat nulla tempus vivamus in felis',
     isFeatured: true,
     expDate: 1501204757270,
-    location: 'Al Fuwayliq'
+    location: 'Al Fuwayliq',
   },
   {
     id: 16,
@@ -284,12 +284,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_536c0710b4804dba4e3b97995725b18e.jpg',
       website: 'cargocollective.com',
-      social: 'nisl'
+      social: 'nisl',
     },
     tags: 'praesent',
     isFeatured: true,
     expDate: 1501323472436,
-    location: 'Khao Kho'
+    location: 'Khao Kho',
   },
   {
     id: 17,
@@ -302,12 +302,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'nytimes.com',
-      social: 'risus'
+      social: 'risus',
     },
     tags: 'imperdiet et commodo vulputate justo in',
     isFeatured: true,
     expDate: 1501245901434,
-    location: 'Aurora'
+    location: 'Aurora',
   },
   {
     id: 18,
@@ -320,12 +320,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'nhs.uk',
-      social: 'pede justo'
+      social: 'pede justo',
     },
     tags: 'massa volutpat convallis morbi odio odio',
     isFeatured: false,
     expDate: 1501840202953,
-    location: 'Boavista'
+    location: 'Boavista',
   },
   {
     id: 19,
@@ -338,12 +338,12 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'umn.edu',
-      social: 'sed magna'
+      social: 'sed magna',
     },
     tags: 'nunc rhoncus dui vel sem sed sagittis nam congue risus',
     isFeatured: true,
     expDate: 1501713847540,
-    location: 'Jandira'
+    location: 'Jandira',
   },
   {
     id: 20,
@@ -356,11 +356,11 @@ export default [
       imgUrl:
         'https://jobbatical.com/upload/thumbs/upload_898de66c5fa95ac4823f5947b09da911.jpg',
       website: 'indiegogo.com',
-      social: 'et'
+      social: 'et',
     },
     tags: 'mattis odio donec vitae nisi nam ultrices libero non mattis',
     isFeatured: true,
     expDate: 1501100333258,
-    location: 'Muzi'
-  }
+    location: 'Muzi',
+  },
 ];
