@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 const Company = require('./Company');
 
 const jobSchema = new mongoose.Schema({
-    companyId: ObjectId,
-    companyName: , // TODO
+    companyName: { type: String, default: '' },
     info: {
     	title: { type: String, default: '' },
     	description: { type: String, default: '' },
