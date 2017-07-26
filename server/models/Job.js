@@ -12,7 +12,7 @@ const jobSchema = new mongoose.Schema({
     location: { type: String, default: '' },
     tags: [{ type: String, default: '' }],
     isFeatured: Boolean, 
-    expDate: Date
+    expDate: Date,
 });
 
 const jobModel = mongoose.model('Job', jobSchema);
