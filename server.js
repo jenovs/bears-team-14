@@ -20,7 +20,9 @@ const HOST = process.env.DB_HOST;
 const DB_PORT = process.env.DB_PORT;
 const DB = process.env.DB;
 
-mongoose.connect(`mongodb://${USER}:${PASS}@${HOST}:${DB_PORT}/${DB}`, { useMongoClient: true });
+mongoose.connect(`mongodb://${USER}:${PASS}@${HOST}:${DB_PORT}/${DB}`, {
+  useMongoClient: true,
+});
 
 // ===== Server Setup =====
 const PORT = process.env.PORT || 3001;
