@@ -14,14 +14,13 @@ const userHandler = require('./server/routes/userHandler');
 
 // ===== Mongoose Setup =====
 mongoose.Promise = global.Promise;
-const USER = process.env.USER;
-const PASS = process.env.PASS;
-const HOST = process.env.HOST;
+const USER = process.env.DB_USER;
+const PASS = process.env.DB_PASS;
+const HOST = process.env.DB_HOST;
 const DB_PORT = process.env.DB_PORT;
 const DB = process.env.DB;
-// Temporary fix for accessing mlab
-const MONGO_URI = process.env.MONGO_URI;
-mongoose.connect(MONGO_URI);
+
+mongoose.connect(`mongodb://${USER}:${PASS}@${HOST}:${DB_PORT}/${DB}`, { useMongoClient: true });
 
 // ===== Server Setup =====
 const PORT = process.env.PORT || 3001;
