@@ -19,7 +19,9 @@ const PASS = process.env.PASS;
 const HOST = process.env.HOST;
 const DB_PORT = process.env.DB_PORT;
 const DB = process.env.DB;
-mongoose.connect('mongodb://${USER}:${PASS}@${HOST}:${DB_PORT}/${DB}');
+// Temporary fix for accessing mlab
+const MONGO_URI = process.env.MONGO_URI;
+mongoose.connect(MONGO_URI);
 
 // ===== Server Setup =====
 const PORT = process.env.PORT || 3001;
