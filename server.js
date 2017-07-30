@@ -1,10 +1,12 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
 
 // ===== Models =====
-const Job = require('server/models/Job.js');
+const Job = require('./server/models/Job.js');
 
 // ===== Routes =====
 const authRoute = require('./server/routes/authentication');
