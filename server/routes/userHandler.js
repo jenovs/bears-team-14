@@ -34,11 +34,7 @@ Router.delete('/test/', (req, res) => {
   });
 });
 
-<<<<<<< HEAD
 Router.get('/jobs/', catchErrors(JobsHandler.getAll));
-=======
-Router.get('/jobs/', JobsHandler.getAll);
->>>>>>> upstream/development
 
 function isLoggedIn(req, res, next) {
   //TODO
