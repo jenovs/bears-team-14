@@ -8,10 +8,13 @@ const ErrorHandler = require('./server/controllers/ErrorHandler.js');
 
 // ===== App Setup =====
 const app = express();
+// Might not need bodyParser.json()
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+);
 
 // ===== Models =====
 const Job = require('./server/models/Job.js');
