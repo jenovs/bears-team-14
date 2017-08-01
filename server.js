@@ -1,12 +1,17 @@
 require('dotenv').config();
 
 const express = require('express');
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const ErrorHandler = require('./server/controllers/ErrorHandler.js');
 
 // ===== App Setup =====
 const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 // ===== Models =====
 const Job = require('./server/models/Job.js');
