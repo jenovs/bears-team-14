@@ -16,8 +16,7 @@ module.exports = {
     let tags = req.body.tags.split(',');
 
     // Trim whitespaces around the tags
-    for (let i = 0; i < tags.length; i++)
-      tags[i] = tags[i].trim();
+    const trimmedTags = tags.map(tag => tag.trim());
 
     // Create and save the new job as specified by mongoose model
     const cleanedJob = new Job({
