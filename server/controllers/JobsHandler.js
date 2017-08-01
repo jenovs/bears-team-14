@@ -28,7 +28,7 @@ module.exports = {
         website: newJob.website,
       },
       location: newJob.location,
-      tags: tags,
+      tags: trimmedTags,
       expDate: new Date(newJob.expDate),
     });
 
