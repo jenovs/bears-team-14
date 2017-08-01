@@ -13,7 +13,7 @@ module.exports = {
     const newJob = req.body;
 
     // Split tags string by commas
-    let tags = req.body.tags.split(',');
+    const tags = req.body.tags.split(',');
 
     // Trim whitespaces around the tags
     const trimmedTags = tags.map(tag => tag.trim());
