@@ -34,8 +34,5 @@ module.exports = {
     });
 
     await cleanedJob.save();
-
-    console.log(cleanedJob);
-    res.json(req.body);
   },
 };
