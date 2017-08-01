@@ -10,7 +10,7 @@ module.exports = {
   },
   createNew: async function(req, res) {
     // Remember the form's data
-    const newJob = req.body;
+    const { companyName, title, description, imgUrl, website, location, expDate } = req.body;
 
     // Split tags string by commas
     const tags = req.body.tags.split(',');
@@ -20,18 +20,20 @@ module.exports = {
 
     // Create and save the new job as specified by mongoose model
     const cleanedJob = new Job({
-      companyName: newJob.companyName,
+      companyName,
       info: {
-        title: newJob.title,
-        description: newJob.description,
-        imgUrl: newJob.imgUrl,
-        website: newJob.website,
+        title,
+        description,
+        imgUrl,
+        website,
       },
-      location: newJob.location,
+      location,
       tags: trimmedTags,
-      expDate: new Date(newJob.expDate),
+      expDate: new Date(expDate),
     });
 
     await cleanedJob.save();
+
+    res.status(201).end();
   },
 };
