@@ -59,8 +59,8 @@ describe('Jobs', function() {
   });
 
   describe('#POST', function() {
-    it('should add a SINGLE new job on /jobs/create POST', async function() {
-      let res = await chai.request(server).post('/api/v1/jobs/create').send({
+    it('should add a SINGLE new job on /job/create POST', async function() {
+      let res = await chai.request(server).post('/api/v1/job/create').send({
         companyName: 'Company2 Name',
         title: 'Job2 Title',
         description: 'Job2 Description',
@@ -68,7 +68,7 @@ describe('Jobs', function() {
         website: 'Job2 Website',
         location: 'Job2 Location',
         tags: 'Second, Job, Tags',
-        expDate: 'October 20, 1975 11:13:00',
+        expDate: 'October 10, 1975 11:13:00',
       });
       res.should.have.status(201);
     });
