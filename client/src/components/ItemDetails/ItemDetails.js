@@ -53,7 +53,7 @@ const ItemDetails = props => {
             )}
           </div>
         </div>
-        <p className="subtitle">JOB DESCRIPTION</p>
+        <p className="item-details__subtitle subtitle">JOB DESCRIPTION</p>
         {Object.keys(data.info.description).map((key, i) =>
           <div className="section" key={i}>
             <div className="content">
@@ -71,7 +71,7 @@ const ItemDetails = props => {
             </div>
           </div>
         )}
-        <p className="subtitle">THE COMPANY</p>
+        <p className="item-details__subtitle subtitle">THE COMPANY</p>
         <div className="section">
           <p className="title is-4">
             About {data.companyName}
