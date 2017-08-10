@@ -26,11 +26,11 @@ const ItemCard = ({ id, imgUrl, title, description, expDate, isSaved }) =>
   </div>;
 
 ItemCard.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   imgUrl: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  expDate: PropTypes.number.isRequired,
+  expDate: PropTypes.string.isRequired,
   isSaved: PropTypes.bool,
 };
 
