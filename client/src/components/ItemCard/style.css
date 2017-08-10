@@ -47,6 +47,18 @@
   color: rgb(102, 102, 102);
 }
 
+.item-card__footer {
+  color: rgb(155, 155, 155);
+  font-size: 13px;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.item-card__time-amount {
+  color: rgb(38, 185, 153);
+  font-weight: bold;
+}
+
 .item-card:hover {
   box-shadow: 0 0 10px 5px rgb(238, 238, 238);
 }

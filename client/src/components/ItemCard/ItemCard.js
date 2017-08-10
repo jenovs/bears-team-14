@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+import getRemainingTime from './getRemainingTime';
+
 import './style.css';
 
 const ItemCard = ({
@@ -29,8 +31,13 @@ const ItemCard = ({
           {location}
         </div>
       </div>
-      <div>
-        {expDate} - {isSaved ? 'unsave' : 'save'}
+      <div className="item-card__footer">
+        <div className="item-card__remaining-time">
+          <span className="item-card__time-amount">
+            {getRemainingTime(expDate)}
+          </span>{' '}
+          to apply
+        </div>
       </div>
     </Link>
   </div>;
