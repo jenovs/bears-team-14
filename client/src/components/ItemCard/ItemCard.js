@@ -4,19 +4,29 @@ import { Link } from 'react-router-dom';
 
 import './style.css';
 
-const ItemCard = ({ id, imgUrl, title, description, expDate, isSaved }) =>
+const ItemCard = ({
+  id,
+  imgUrl,
+  title,
+  description,
+  expDate,
+  isSaved,
+  companyName,
+  location,
+}) =>
   <div className="item-card">
     <Link to={`/job/${id}`}>
       <div
         style={{ backgroundImage: `url(${imgUrl})` }}
         className="item-card__image"
       />
-      <div>
-        <p>
+      <div className="item-card__description">
+        <h2>
           {title}
-        </p>
-        <div className="item-card__description">
-          {description}
+        </h2>
+        <div className="item-card__details">
+          At <span className="item-card__at-company">{companyName}</span>{' '}
+          {location}
         </div>
       </div>
       <div>

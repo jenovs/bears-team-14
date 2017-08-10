@@ -12,13 +12,13 @@ const Home = ({ data }) =>
               item.isFeatured &&
               <ItemCard
                 {...item.info}
+                {...item}
                 key={item._id}
                 id={item._id}
                 imgUrl={
                   item.info.imgUrl &&
                   item.info.imgUrl.replace(/upload\//, 'upload/thumbs/')
                 }
-                expDate={item.expDate}
               />
           )
         : <div>Loading...</div>}
